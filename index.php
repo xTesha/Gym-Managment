@@ -39,7 +39,7 @@ require_once 'config.php';
 
 <html>
     <head>
-        <title>Auta</title>
+        <title>Gym</title>
     </head>
 
     <body>
@@ -54,7 +54,7 @@ require_once 'config.php';
 
     <form method="POST">    
         Username: <input type='text' name="username"> <br>
-        Passwrod: <input type="text" name="password"> <br>
+        Passwrod: <input type="password" name="password"> <br>
         <input type="submit" value="Login">
     </form>
     </body>
